@@ -2731,9 +2731,9 @@
       },
       {
         "path": "docs/publication/README.md",
-        "bytes": 6481,
-        "sha256": "8f2cdfb4ff7a35d40f05327f209bee657ba91d07c41bfa846752f2bd7dca9ff5",
-        "git_blob_oid": "03a5e5579683d72c714a2c749fc6fa57503bbd83",
+        "bytes": 6535,
+        "sha256": "36b80b2435f6dab4624a1fb370f8d3744da90536866d7f52f8dcb1b0f35fe4b7",
+        "git_blob_oid": "914db13f4d4481010b7483409f8b83937fdcad03",
         "indexed": true
       },
       {
@@ -2759,9 +2759,9 @@
       },
       {
         "path": "docs/publication/ncp-system-design.tex",
-        "bytes": 83196,
-        "sha256": "4b2de17079e4c618fe15320e36ce1efe3e1dee1812c4a52ef9aaaa21f0d48c7b",
-        "git_blob_oid": "bfc88aeca9248ba1537dc02d3f0e20bccdb91168",
+        "bytes": 83254,
+        "sha256": "bf5d98cef84cc5a99846039cdfa49db851dc9e80f2e64b3ee21a297a5c8da106",
+        "git_blob_oid": "f9a3d06ca16f618dfa0dfcc2b211c5d347893614",
         "indexed": true
       },
       {
@@ -3123,9 +3123,9 @@
       },
       {
         "path": "local/modular/STATUS.md",
-        "bytes": 24944,
-        "sha256": "d221526f4eb5666608386c5d777f431decd7160f5a7867a30ad821445ebc02eb",
-        "git_blob_oid": "a33d336753aeb6ed861350674fb9ef8f06b9a25c",
+        "bytes": 24998,
+        "sha256": "9baeedf7e11162e6a122dea38423734d8b4094c3ef2d3a66dd7d49baa545c630",
+        "git_blob_oid": "100e8b27b8d60ea24b16d2b387210bb9cccc8474",
         "indexed": true
       },
       {
@@ -8793,9 +8793,9 @@
       },
       {
         "path": "output/pdf/ncp-system-design.pdf",
-        "bytes": 1214029,
-        "sha256": "99133bf33a287ac09fd2bf4041961c79e0b769a1b4f4ba30c7969d474d5e7691",
-        "git_blob_oid": "62a5a23b86f6f6c9e462af1db7837c42997f86a0",
+        "bytes": 1214051,
+        "sha256": "c4f998e98511fea1cd2ef79f99961dcb72f6ce467b8072ae63f1bdb932b64cdb",
+        "git_blob_oid": "36bfaa5eb3d06516e63426ee0963395276865645",
         "indexed": true,
         "reason": "NUL_BYTE"
       },
@@ -10872,13 +10872,13 @@
       ]
     },
     {
-      "id": "NCP-LATENT-4D8DAF13B2A5E28E56B7",
+      "id": "NCP-LATENT-34C23889477775DF357C",
       "path": "docs/publication/ncp-system-design.tex",
-      "line": 1595,
+      "line": 1594,
       "column": 13,
       "token_id": "M007",
       "line_sha256": "fd617997b339373b6f117c050502c70cf288b253746fb3fa4cf55e85e84d64d5",
-      "file_sha256": "4b2de17079e4c618fe15320e36ce1efe3e1dee1812c4a52ef9aaaa21f0d48c7b",
+      "file_sha256": "bf5d98cef84cc5a99846039cdfa49db851dc9e80f2e64b3ee21a297a5c8da106",
       "disposition": "EXPLICIT_SCOPE_QUARANTINE",
       "claim_effect": "NOT_STABLE_BY_IMPLICATION",
       "evidence_paths": [
@@ -11372,7 +11372,7 @@
       "column": 48,
       "token_id": "M007",
       "line_sha256": "58cc80425201795e1c81ec7a6286f8635c57263e81a20665fcd8bc7cd4cc5e6b",
-      "file_sha256": "d221526f4eb5666608386c5d777f431decd7160f5a7867a30ad821445ebc02eb",
+      "file_sha256": "9baeedf7e11162e6a122dea38423734d8b4094c3ef2d3a66dd7d49baa545c630",
       "disposition": "EXPLICIT_SCOPE_QUARANTINE",
       "claim_effect": "NOT_STABLE_BY_IMPLICATION",
       "evidence_paths": [
@@ -11387,7 +11387,7 @@
       "column": 50,
       "token_id": "M007",
       "line_sha256": "e687c4e42afcea5bd9d21f5f9e5496c852151727ef1ac8bb14029fdb634c069d",
-      "file_sha256": "d221526f4eb5666608386c5d777f431decd7160f5a7867a30ad821445ebc02eb",
+      "file_sha256": "9baeedf7e11162e6a122dea38423734d8b4094c3ef2d3a66dd7d49baa545c630",
       "disposition": "EXPLICIT_SCOPE_QUARANTINE",
       "claim_effect": "NOT_STABLE_BY_IMPLICATION",
       "evidence_paths": [

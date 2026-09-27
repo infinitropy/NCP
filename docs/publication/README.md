@@ -7,7 +7,7 @@ Its publication checks grant no runtime, scientific, or release authority.
 ## Build tools
 
 The build uses LuaLaTeX, latexmk, librsvg, and Poppler.
-It needs these TeX Live parts: `texlive-luatex`, `texlive-latex-extra`, `texlive-pictures`, and `texlive-fonts-extra`.
+It needs these TeX Live packages: `texlive-latex-base`, `texlive-latex-recommended`, `texlive-latex-extra`, `texlive-luatex`, `texlive-pictures`, and `texlive-fonts-extra`.
 It also needs the Latin Modern OpenType fonts from `fonts-lmodern`.
 The [CI publication job](../../.github/workflows/ci.yml) installs the exact Debian package set.
 

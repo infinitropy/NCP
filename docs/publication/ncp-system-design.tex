@@ -586,14 +586,14 @@ A plan has one to three entities and at most 1,024 coupled steps. A step lasts
 1,000 to 1,000,000~$\mu$s in multiples of 1,000~$\mu$s. A frame is a 4-byte big-endian
 length followed by at most 65,536 JSON bytes. Positions use meters, velocities meters
 per second, and actions meters per second squared, in east, north, and up order. The
-action \texttt{zero\_acceleration} keeps the current velocity. It is not a stop
-command.
+action \texttt{zero\_acceleration} commands zero acceleration, so it can keep the current
+velocity. It is not a stop command.
 
 Capture reservation precedes neural and body mutation. A lost response does not show
 whether execution occurred. The coordinator keeps known results, records unresolved
 dispatches, and retires uncertain generations. Same-generation crash resume is out of
 scope. Haldir command gating, remote endpoints, physical actuation, and real-time
-deadlines are also out of scope. The registry \path{local/release.v1.json} lists
+guarantees are also out of scope. The registry \path{local/release.v1.json} lists
 the open bootstrap and operational gates.
 
 % ─────────────────────────────────────────────────────────────────────────────
@@ -1310,10 +1310,9 @@ Figure~\ref{fig:fsm} shows the current compatibility governor. It returns bounde
 wire-shape candidates. It does not authenticate a sender, issue a lease, load a plant
 profile, or prove a physical effect.
 
-For a configured positive timeout $T$, sensor data becomes stale after
-$\min(T,60\ \mathrm{s})$. The sustained-silence deadline for ESTOP is
-$\min\bigl(20\min(T,60\ \mathrm{s}),\ 60\ \mathrm{s}\bigr)$ after the last finite sensor
-timestamp. For example, $T=0.5$~s gives 10~s, and $T\geq3$~s gives 60~s.
+For a configured positive timeout $T$, sensor data becomes stale when its age reaches
+$\min(T,60\ \mathrm{s})$. The governor latches ESTOP when the time since the last finite
+sensor timestamp reaches $\min\bigl(20\min(T,60\ \mathrm{s}),\ 60\ \mathrm{s}\bigr)$. For example, $T=0.5$~s gives 10~s, and $T\geq3$~s gives 60~s.
 
 Table~\ref{tab:gaps} lists the main gaps between this runtime and the proposed target.
 Each row names the source that shows the gap. The task ledger lists the complete set.
