@@ -19,6 +19,8 @@ Each application owns its operations, observations, units, clocks, and accepted 
 The SDK and applications have source controls and selected native evidence.
 Complete qualification of their declared installed combinations and final product v1 remain open.
 Read the [architecture, interface mathematics, evidence, and remaining work](local/modular/STATUS.md) for the current modular scope.
+The [v1 preparation notes and checklist](local/modular/PREPARATION.md) collect the supported evidence and outstanding prerequisites.
+This preparation work creates no release tag or stable package publication.
 
 In the intended paper-driven workflow, Engram extracts candidate evidence from a PDF for review.
 After evidence review, Engram constructs a supported network and experiment, configures CREBAIN, and coordinates execution and reporting.
@@ -36,7 +38,7 @@ The [target ownership flow](local/modular/STATUS.md#target-a-paper-driven-experi
 | [Engram NEST application (private source)](https://github.com/sepahead/Paper2Brain/tree/main/packages/ncp-nest) | Run a persistent neural network or select the guarded body/neural host CLI. | Native host comparisons retain exact count/rate and payload results. Private repository access is required. |
 | [CREBAIN sensor application](https://github.com/sepahead/crebain/tree/main/integrations/ncp-force-ground-sensors) | Run an explicitly installed body through `body_session`, or use caller-owned streams through `SensorSession`. | Installed CLI and body/neural cases cover selected workloads. Each advertised configuration needs its own qualification. |
 | [CREBAIN checkpoint family](https://github.com/sepahead/crebain/blob/main/integrations/ncp-force-ground-sensors/FAMILY.md) | Retain a live native checkpoint and serve separately bound restored continuations. | The selected E1 study checks original pressure bytes and final CPU equality. It does not restore arbitrary runtime state. |
-| [CREBAIN city sources](https://github.com/sepahead/crebain/tree/main/integrations/ncp-force-city-sources) | Control 1–256 entities in one world with separately selected world-fixed sensor sources. | Native cases retain their declared delivery and fault bounds. Complete resource and continuous-contact qualification remain open. |
+| [CREBAIN city sources](https://github.com/sepahead/crebain/tree/main/integrations/ncp-force-city-sources) | Control 1–256 entities in one world with separately selected world-fixed sensor sources. | Native cases retain delivery and fault bounds, with a separate integration-law hull certificate. Complete resource and general tracking qualification remain open. |
 | [Prisoma transcript](https://github.com/sepahead/prisoma/tree/main/integrations/ncp-transcript) | Capture original NCP exchanges from selected peers and verify terminal completeness. | Capture does not launch a simulator or validate an experiment's scientific result. |
 | [Prisoma Agent Bridge](https://github.com/sepahead/prisoma/tree/main/integrations/agent-bridge) | Record sensor execution, forecast commitments, and restored labels through the selected application contract. | The native E1 study completed 112 episodes. Its forecast result was null or inconclusive under the frozen useful-margin requirement. |
 
@@ -58,7 +60,7 @@ The remaining work includes:
 
 - Complete installed qualification, lifecycle controls, and reproducible distribution for each advertised optional combination.
 - Measure the declared workload and resource envelope, including supported sensor sizes and entity counts.
-- Qualify declared many-drone workloads, including continuous-contact and complete resource requirements.
+- Qualify declared many-drone workloads within their exact contact, resource, and lifecycle requirements.
 - Extend experiment evidence beyond E1's null or inconclusive forecast result before claiming general model quality or policy benefit.
 - Qualify additional advertised application roles, including selected monitoring, through their own typed contracts.
 
